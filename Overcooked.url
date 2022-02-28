@@ -1,0 +1,34 @@
+classList.metoda  01:14:00
+
+	-contains 			czy zawiera klase?
+	-add 				po przecinkach można dodać kilka
+	-remove  			usuń klasę ("class" , "super")
+	-toggle				dodaj i usuń jednocześnie (jeśli istnieje dodaje, jeśli
+	-replace("btn", "lol")		zamień mi klasę "btn" na "lol" 
+
+
+obiekt style =>  property / style elementów
+	dynamiczna zmiana, nie powinno się za bardzo zmieniac, bo od tego jest CSS
+
+	$element.style.fontSize = '24px';
+
+createElement 	01:32:00
+	stworzone zmienne przechowywane są w pamięci
+
+	.textContent
+	.classList.add.
+	.setAttributes
+
+	.append				dodanie elementów do DOM, po wszystkich dzieciach
+	.preped				przed dziećmi
+	.after				po elemencie
+	.before				przed elementem
+	
+insertAdjacentHTML - dodawanie HTML
+
+	$element.insertAdjacentHTML(position, html);
+
+	beforebegin 			przed elementem (element musi istnieć w DOMie)
+	afterbegin 			wewnątrz alementu przed dziećmi
+	beforeend			wewnątrz elementu po dzieciach
+	afterened 			po elemencie (element musi istnieć w DOMie)
